@@ -1,0 +1,22 @@
+ @import "~@blueprintjs/core/lib/css/blueprint.css";
+ @import "~@blueprintjs/icons/lib/css/blueprint-icons.css";
+
+.barcode-scanner {
+  text-align: center;
+}
+
+.barcode-scanner-controller {
+  width: 200px;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.barcode-scanner-controller button {
+  flex-direction: column;
+}
+
+.barcode-scanner-canvas, .drawingBuffer {
+  display: none;
+}

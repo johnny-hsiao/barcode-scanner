@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-.barcode-scanner-controller {
-  width: 200px;
-  margin: auto;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+.barcode-scanner header {
+  height: 80px;
+}
+.barcode-scanner__title {
+  line-height: 80px;
+  margin: 0;
 }
 
 .barcode-scanner-controller button {
@@ -19,4 +19,9 @@
 
 .barcode-scanner-canvas, .drawingBuffer {
   display: none;
+}
+
+table {
+  margin: auto;
+  min-width: 320px;
 }

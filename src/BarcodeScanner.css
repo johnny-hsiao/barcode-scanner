@@ -8,20 +8,12 @@
 .barcode-scanner header {
   height: 80px;
 }
+
 .barcode-scanner__title {
   line-height: 80px;
   margin: 0;
 }
 
-.barcode-scanner-controller button {
-  flex-direction: column;
-}
-
-.barcode-scanner-canvas, .drawingBuffer {
-  display: none;
-}
-
-table {
-  margin: auto;
-  min-width: 320px;
+.barcode-scanner__intro {
+  margin: 12px 0;
 }

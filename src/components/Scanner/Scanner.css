@@ -1,0 +1,7 @@
+.barcode-scanner-canvas, .drawingBuffer {
+  display: none;
+}
+
+.barcode-scanner video {
+  width: 100%;
+}

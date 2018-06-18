@@ -1,8 +1,11 @@
 .barcode-scanner-controller {
   width: 200px;
-  margin: auto;
+  margin: 12px auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  margin-bottom: 12px;
+}
+
+.barcode-scanner-controller button {
+  flex-direction: column;
 }
